@@ -1,0 +1,42 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(155, 197, 183);
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(196, 245, 228);
+}
+
+.description {
+    line-height: 5px;
+    padding: 20px;
+    background-color: rgb(130, 153, 145);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    margin: 30px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: darkred;
+}
