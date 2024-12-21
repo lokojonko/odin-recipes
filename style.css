@@ -21,13 +21,13 @@ h1 {
     text-align: center;
 }
 
-ul {
+.recipe-overview {
     list-style-type: none;
     text-align: center;
 }
 
 li {
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 span {
@@ -38,5 +38,22 @@ span {
 
 .highlight {
     font-weight: bold;
-    background-color: darkred;
+}
+
+#ingredients,
+#steps {
+    margin-left: 25%;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    margin: 20px auto;
+    display: block;
+    padding: 30px;
+    background-color: #00ffb3;
+    font-weight: bold;
+    font-size: 25px;
 }
